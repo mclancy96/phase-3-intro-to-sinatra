@@ -4,3 +4,5 @@ gem 'sinatra'
 gem 'webrick'
 
 gem 'rack-test', group: :test
+gem 'rspec'
+gem 'rubocop', group: :test
