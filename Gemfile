@@ -1,6 +1,17 @@
 source "https://rubygems.org"
 
-gem "sinatra", "~> 2.1"
+gem "sinatra", "~> 3.0"
 
-gem "rack-test", "~> 1.1", group: :test
+gem "rack-test", "~> 2.1", group: :test
 
+gem 'rubocop'
+
+gem 'pry'
+
+gem 'puma'
+
+gem 'ostruct'
+
+gem 'logger'
+
+gem 'rspec'
