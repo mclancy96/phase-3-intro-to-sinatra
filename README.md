@@ -90,7 +90,7 @@ run App
 Run the app with:
 
 ```console
-$ rackup config.ru
+bin/rackup
 ```
 
 Just like with our Rack example, this will run a server locally. Visit

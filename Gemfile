@@ -1,17 +1,23 @@
 source "https://rubygems.org"
 
-gem "sinatra", "~> 3.0"
+ruby "3.3.5"
+gem "rack"
+gem "rackup"
+gem "sinatra", "~> 4.1"
 
 gem "rack-test", "~> 2.1", group: :test
 
-gem 'rubocop'
+gem "rubocop"
 
-gem 'pry'
+gem "pry"
 
-gem 'puma'
+gem "puma"
 
-gem 'ostruct'
+gem "ostruct"
 
-gem 'logger'
+gem "logger"
 
-gem 'rspec'
+gem "fiddle"
+gem "rspec"
+
+gem "rubocop-rspec", "~> 3.7"
